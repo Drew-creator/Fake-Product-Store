@@ -1,5 +1,6 @@
 {
-  "name": "product-page",
+  "homepage": "https://fake-product-store.netlify.app/",
+  "name": "fake-product-page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
