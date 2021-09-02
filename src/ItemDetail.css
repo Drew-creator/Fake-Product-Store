@@ -1,0 +1,160 @@
+.ItemDetail-flex {
+    display: flex;
+    justify-content: center;
+    color: rgb(44, 44, 44);
+}
+.ItemDetail-flex1 {
+    width: 50%;
+    margin-top: 14em;
+}
+.ItemDetail-flex2 {
+    width: 40%;
+    margin-top: 14em;
+    text-align: start;
+}
+.ItemDetail-photo {
+    width: 25vw;
+    margin-left: 30%;
+}
+
+.jewelery {
+    width: 15vw;
+    margin-top: 2em;
+    margin-left: 30%;
+}
+.Spinner-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fa-pulse {
+    font-size: 8em;
+}
+
+.ItemDetail-title {
+    font-size: 20px;
+}
+
+.ItemDetail-price {
+    font-size: 20px;
+}
+
+#color {
+    width: 23em;
+    height: 3em;
+    background-color: white;
+    border: 1px solid black;
+    padding-left: 8px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.ItemDetail-cart-container {
+    display: flex;
+}
+
+.ItemDetail-cart {
+    display: block;
+    width: 15em;
+    height: 3em;
+    background-color: rgb(30, 177, 30);
+    color: white;
+    border: none;
+    font-weight: 1000;
+}
+
+.ItemDetail-cart:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+.fa-gratipay {
+    display: block;
+    font-size: 2em;
+    margin-top: 5px;
+    margin-left: 2em;
+    color: black;
+}
+
+.fa-gratipay:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.ItemDetail-perks {
+    margin-top: 2em;
+    width: 18em;
+    padding-left: 1.5em;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.ItemDetail-perks p {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.ItemDetail-perks a {
+    color: black;
+}
+
+.ItemDetail-sizing {
+    background-color:rgb(243, 241, 241);
+    width: 18.6em;
+    margin-top: 2em;
+    padding-top: 1px;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    
+}
+
+.ItemDetail-sizing p {
+    font-size: 12px;
+}
+
+.ItemDetail-sizing a {
+    color: black;
+}
+
+.ItemDetail-desc {
+    margin-top: 2em;
+    width: 40vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .ItemDetail-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ItemDetail-flex1 {
+        margin-right: 8em;
+    }
+    .ItemDetail-flex2 {
+        margin-top: 2em;
+    }
+    .ItemDetail-photo {
+        width: 100%;
+        margin-left: 30%;
+    }
+    .ItemDetail-desc {
+        width: 50vw;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .ItemDetail-flex {
+        align-items: flex-start;
+        margin-left: 2em;
+    }
+    .Item-detail-title {
+        width: 15em;
+    }
+    .ItemDetail-desc {
+        width: 80vw;
+    }
+    .ItemDetail-cart-container {
+        width: 18em;
+    }
+    .ItemDetail-cart {
+        width: 100%;
+    }
+}

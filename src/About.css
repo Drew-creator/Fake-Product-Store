@@ -1,0 +1,49 @@
+.About {
+    background-color: black;
+
+}
+
+.About-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("about.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 30vw;
+    height: 20vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 25px;
+    color: white;
+}
+
+.About-card p {
+    padding: 0 5em 5em 5em;
+}
+
+@media only screen and (max-width: 1440px) {
+    .About-card {
+        width: 40vw;
+        height: 30vw;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .About-card {
+        width: 70vw;
+        height: 40vw;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .About-card {
+        width: 80vw;
+        height: 60vw;
+        font-size: 12px;
+    }
+}

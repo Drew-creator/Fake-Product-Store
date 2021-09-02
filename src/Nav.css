@@ -1,0 +1,76 @@
+nav {
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 300;
+    color: white;
+    background-color: black;
+}
+
+nav h3 {
+    float: left;
+    margin-right: 22%;
+    margin-left: 1em;
+}
+
+.nav-links {
+    display: flex;
+    margin-left: 22.5vw;
+}
+
+nav a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav i {
+    font-size: 2em;
+    margin-top: 13px;
+    margin-left: 45%;
+}
+
+@media only screen and (max-width: 1920px) {
+    nav i {
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    nav i {
+        margin-left: 35%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-links {
+        margin-left: 10vw;
+    }
+    nav i {
+        margin-left: 30%;
+    }
+}
+@media only screen and (max-width: 414px) {
+    nav h3 {
+        margin-right: 4em;
+    }
+    .nav-links {
+        margin-left: 0;
+    }
+    nav i {
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    nav h3 {
+        margin-right: 3em;
+    }
+}
