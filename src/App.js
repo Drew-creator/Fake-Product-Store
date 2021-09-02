@@ -5,7 +5,8 @@ import Shop from './Shop';
 import ItemDetail from './ItemDetail';
 import Footer from './Footer';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { AnimatePresence } from "framer-motion";
+import {BrowserRouter as Router, Switch, Route, useLocation, useHistory} from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -13,11 +14,13 @@ class App extends Component {
       <Router>
         <div className="App">
           <Nav />
-          <Switch>
-            <Route path="/" exact component={Shop}/>
-            <Route path="/about" component={About}/>
-            <Route path="/:id" component={ItemDetail}/> 
-          </Switch> 
+          <AnimatePresence exitBeforeEnter>
+            <Switch>
+              <Route path="/" exact component={Shop}/>
+              <Route path="/about" component={About}/>
+              <Route path="/:id" component={ItemDetail}/> 
+            </Switch> 
+          </AnimatePresence>
         </div>
       </Router>
     )

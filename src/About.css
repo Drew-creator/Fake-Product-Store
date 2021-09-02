@@ -40,10 +40,18 @@
     }
 }
 
+@media only screen and (max-width: 514px) {
+    .About-card {
+        width: 75vw;
+        height: 50vw;
+        padding-top: 3em;
+        font-size: 12px;
+    }
+}
+
 @media only screen and (max-width: 414px) {
     .About-card {
         width: 80vw;
         height: 60vw;
-        font-size: 12px;
     }
 }
