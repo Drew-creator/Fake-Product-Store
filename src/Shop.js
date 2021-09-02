@@ -52,8 +52,8 @@ class Shop extends Component {
                 <div className="Shop-body">
                     <div className="Shop-header">
                         <div className="Shop-header-content">
-                            <h1>Welcome to my Fake Store</h1>
-                            <h3>Thanks for stopping by!</h3>  
+                            <h1>Hello, Welcome to my Fake Product Store</h1>
+                            <h3>Feel free to browse through the products!</h3>  
                         </div>
                     </div>               
                     <div className="Shop-flex-container">
