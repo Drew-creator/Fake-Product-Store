@@ -23,14 +23,14 @@ class Footer extends Component {
                         <p><a href="">Refund Policy</a></p>
                         <p><a href="">Guarantees</a></p>  
                     </div>
-                    <div id="footer-column1">
+                    <div className="hide"id="footer-column1">
                         <h3>LEARN MORE</h3>
                         <p><a href="">Refer A Friend</a></p>
                         <p><a href="">Brands</a></p>
                         <p><a href="">Location</a></p>
                         <p><a href="">Coupons</a></p>
                     </div>
-                    <div id="footer-column1">
+                    <div className="hide" id="footer-column1">
                         <h3>SHOP</h3>
                         <p><a href="">Donations</a></p>
                         <p><a href="">New Arrivals</a></p>

@@ -2,7 +2,7 @@ nav {
     display: flex;
     overflow: hidden;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index: 300;
     color: white;
     background-color: black;
@@ -57,6 +57,11 @@ nav i {
     nav i {
         margin-left: 30%;
     }
+}
+@media only screen and (max-width: 514px) {
+    nav i {
+        margin-left: 10%;
+    }   
 }
 @media only screen and (max-width: 414px) {
     nav h3 {

@@ -79,3 +79,15 @@
         margin-left: 5em;
     }
 }
+
+@media only screen and (max-width: 514px) {
+    .hide {
+        display: none;
+    }    
+}
+
+@media only screen and (max-width: 414px) {
+    .hide {
+        display: none;
+    }    
+}
