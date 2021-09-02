@@ -140,7 +140,7 @@
         width: 50vw;
     }
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 430px) {
     .ItemDetail-flex {
         align-items: flex-start;
         margin-left: 2em;
