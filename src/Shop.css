@@ -21,23 +21,34 @@
 }
 
 .Shop-flex-item {
-    width: 23vw;
-    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
     border-left: 1px solid rgba(211, 210, 210, 0.685);
     border-right: 1px solid rgba(211, 210, 210, 0.685);
     border-bottom: 1px solid rgba(211, 210, 210, 0.685);
-    
+}
+
+#Shop-item-title {
+    padding: 0 1em 0 1em;
+}
+
+.Shop-flex-item p {
+    margin-top: 6em;
+    margin-bottom: 2em;
 }
 
 .Shop-flex-price {
     color: rgb(13, 14, 13);
     font-size: 17px;
     font-weight: 1000;
+    margin-bottom: 1em;
 }
 
-/* .Shop-flex-item:hover {
-    background-color: rgb(245, 245, 245);
-} */
+.Shop-flex-add {
+    width: 100px;
+}
 
 .Shop-flex-item-link {
     color: rgb(71, 71, 71);
@@ -45,9 +56,9 @@
 }
 
 .Shop-flex-item img{
-    width: 50%;
-    height: 40%;
-    padding: 3em;
+    width: 250px;
+    height: 270px;
+    padding: 3em 3em 3em 3em;
 }
 
 #grow {
@@ -61,29 +72,49 @@
     transition: 1s ease;
 }
 
-@media only screen and (max-width: 1300px) {
+.Shop-btn {
+    border: none;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border: 1px solid grey;
+    transition: 0.7s;
+    position: relative;
+    bottom: 0px;
+    margin-bottom: 2em;
+}
+
+.Shop-btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.Shop-flex-item:hover .Shop-btn{
+    display: inline-block;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1400px) {
     .Shop-flex-item {
-        width: 30vw;
-        height: 37vw;
+        width: 35vw;
     }
 }
 
 @media only screen and (max-width: 968px) {
     .Shop-flex-item {
-        width: 35vw;
-        height: 42vw;
+        width: 100%;
     }
-}
+} 
 
 @media only screen and (max-width: 768px) {
     .Shop-flex-container {
         flex-direction: column;
         justify-content: center;
     }
-    
-    .Shop-flex-item {
-        width: 100%;
-        height: 100%
+    .Shop-btn {
+        display: block;
+        margin-bottom: 2em;
     }
 }
 

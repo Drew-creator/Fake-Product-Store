@@ -107,7 +107,7 @@ class ItemDetail extends Component {
             )
         }
         else {
-            return(
+            return (
                 <div className="Spinner-container">
                   <i className="fas fa-spinner fa-pulse"></i>  
                 </div>   

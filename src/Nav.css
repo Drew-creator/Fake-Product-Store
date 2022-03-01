@@ -1,8 +1,9 @@
 nav {
     display: flex;
-    overflow: hidden;
+    justify-content: flex-end;
     position: fixed;
-    width: 100vw;
+    overflow: hidden;
+    width: 100%;
     z-index: 300;
     color: white;
     background-color: black;
@@ -25,6 +26,7 @@ nav a {
     color: white;
     font-size: 15px;
     padding: 10px;
+    height: 3em;
 }
 
 nav a:hover {
@@ -34,8 +36,9 @@ nav a:hover {
 
 nav i {
     font-size: 2em;
-    margin-top: 13px;
-    margin-left: 45%;
+    margin-top: 5px;
+    margin-left: 1em;
+    margin-right: 2em;
 }
 
 @media only screen and (max-width: 1920px) {
@@ -58,22 +61,7 @@ nav i {
         margin-left: 30%;
     }
 }
-@media only screen and (max-width: 514px) {
-    nav i {
-        margin-left: 12%;
-    }   
-}
-@media only screen and (max-width: 430px) {
-    nav h3 {
-        margin-right: 4em;
-    }
-    .nav-links {
-        margin-left: 0;
-    }
-    nav i {
-        margin-left: 10%;
-    }
-}
+
 @media only screen and (max-width: 375px) {
     nav h3 {
         margin-right: 3em;

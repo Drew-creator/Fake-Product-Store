@@ -1,0 +1,54 @@
+#Checkout-Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Checkout-title {
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+#Checkout-Form input {
+    margin-bottom: 2em;
+    width: 30em;
+    height: 2em;
+    border-radius: 25px;
+    border: 1px solid grey;
+}
+
+#Checkout-Form label {
+    margin-bottom: 8px;
+}
+
+#Cart-checkout {
+    margin-top: 5em;
+    width: 10em;
+    height: 3em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+#Cart-checkout:hover {
+    cursor: pointer;
+    background-color: #16cc9b;
+}
+
+#Checkout-submit {
+    margin-top: 2em;
+    width: 10em;
+    height: 3em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+#Checkout-submit:hover {
+    cursor: pointer;
+    background-color: #16cc9b;
+}

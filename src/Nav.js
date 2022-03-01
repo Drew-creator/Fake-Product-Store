@@ -3,18 +3,24 @@ import './Nav.css'
 import {Link} from 'react-router-dom'
 class Nav extends Component {
     render() {
+        const contentArr = [this.props.itemImage, this.props.itemTitle, this.props.itemPrice]
         return(
             <nav>
-                <h3>Logo</h3>
                 <div className="nav-links">
                     <Link to="/about">
-                        <a>About</a>
+                        <a className="nav-link">About</a>
                     </Link>
                     <Link to="/">
-                        <a>Shop</a>
+                        <a className="nav-link">Shop</a>
                     </Link>
                 </div>
-                <i className="fas fa-shopping-bag"></i>  
+                <Link 
+                    to={{
+                        pathname: "/cart"
+                      }}
+                >
+                    <i className="fas fa-shopping-bag"></i>  
+                </Link>
             </nav>
         )
     }
